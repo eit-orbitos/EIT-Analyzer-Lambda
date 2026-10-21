@@ -1,0 +1,15 @@
+{
+  "title": "EIT Analyzer Lambda V4.2.1",
+  "upload_type": "software",
+  "version": "4.2.1",
+  "creators": [
+    {"name": "Mladenovski, Toni", "affiliation": "EITNetworks LLC", "orcid": "0009-0009-8343-662X"}
+  ],
+  "description": "Research and teaching prototype comparing a small neural network (scikit-learn MLPRegressor) with classical filters for denoising synthetic signals. Includes benchmark and tests. The 3D view is decorative. This software is not evidence for any physical theory. Code: PolyForm Noncommercial 1.0.0; documentation: CC BY-NC-SA 4.0; commercial use requires a separate written agreement.",
+  "license": "polyform-noncommercial-1.0.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "https://github.com/eit-orbitos/EIT-Analyzer-Lambda", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "keywords": ["signal denoising", "neural network", "research prototype", "EIT Networks"]
+}

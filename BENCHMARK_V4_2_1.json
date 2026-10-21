@@ -1,0 +1,133 @@
+{
+ "app_version": "4.2.1",
+ "environment": {
+  "numpy": "2.5.4",
+  "python": "3.12.15",
+  "sklearn": "1.9.1"
+ },
+ "model": {
+  "converged": true,
+  "hidden_layer_sizes": [
+   128
+  ],
+  "input_scaling": "per-signal z-score (mean/std of noisy input), inverted after prediction",
+  "n_iter": 141,
+  "train_noise_range": [
+   0.05,
+   0.8
+  ],
+  "train_samples": 1500,
+  "train_seed": 42
+ },
+ "protocol": "200 synthetic signals per noise level, test seeds 50000-50199 via SeedSequence; metric = % MSE reduction vs noisy input",
+ "results": {
+  "0.05": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": -137.21,
+    "pct_runs_worse_than_noisy": 54.5
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 58.98,
+    "pct_runs_worse_than_noisy": 1.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": -95.6,
+    "pct_runs_worse_than_noisy": 71.0
+   },
+   "neural": {
+    "mean_reduction_pct": -129.97,
+    "pct_runs_worse_than_noisy": 88.0
+   }
+  },
+  "0.1": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": 28.79,
+    "pct_runs_worse_than_noisy": 21.0
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 74.16,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": 41.99,
+    "pct_runs_worse_than_noisy": 12.5
+   },
+   "neural": {
+    "mean_reduction_pct": 31.84,
+    "pct_runs_worse_than_noisy": 16.0
+   }
+  },
+  "0.2": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": 70.29,
+    "pct_runs_worse_than_noisy": 1.0
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 77.96,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": 76.41,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "neural": {
+    "mean_reduction_pct": 72.22,
+    "pct_runs_worse_than_noisy": 0.0
+   }
+  },
+  "0.35": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": 79.61,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 78.81,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": 84.15,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "neural": {
+    "mean_reduction_pct": 81.38,
+    "pct_runs_worse_than_noisy": 0.0
+   }
+  },
+  "0.5": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": 81.91,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 79.02,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": 86.06,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "neural": {
+    "mean_reduction_pct": 83.82,
+    "pct_runs_worse_than_noisy": 0.0
+   }
+  },
+  "0.8": {
+   "fft_lowpass_10": {
+    "mean_reduction_pct": 83.26,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_5": {
+    "mean_reduction_pct": 79.15,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "moving_average_9": {
+    "mean_reduction_pct": 87.19,
+    "pct_runs_worse_than_noisy": 0.0
+   },
+   "neural": {
+    "mean_reduction_pct": 85.47,
+    "pct_runs_worse_than_noisy": 0.0
+   }
+  }
+ }
+}

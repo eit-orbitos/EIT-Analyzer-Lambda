@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EIT Analyzer Lambda"
+version: "4.2.1"
+authors:
+  - family-names: "Mladenovski"
+    given-names: "Toni"
+    orcid: "https://orcid.org/0009-0009-8343-662X"
+    affiliation: "EITNetworks LLC"
+repository-code: "https://github.com/eit-orbitos/EIT-Analyzer-Lambda"
+license: PolyForm-Noncommercial-1.0.0
+abstract: "Research and teaching prototype comparing a small neural network with classical filters for denoising synthetic signals. Not evidence for any physical theory."
